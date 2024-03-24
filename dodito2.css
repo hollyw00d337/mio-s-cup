@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:bisque;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50vw;
+
+}
+h1 { 
+    text-align: center;
+}
+.name {
+    text-align: center;
+    margin: 20vw;
+}
+.name img{
+    width: 100vw;
+    height: 100vw;
+    margin-bottom: 10vw;
+}
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 5vw 10vw;
+    font-size: 16vw;
+    cursor: pointer;
+}
+
+.count {
+    margin: 0 10vw;
+    font-size: 24vw;
+}
